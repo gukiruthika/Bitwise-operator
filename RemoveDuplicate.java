@@ -5,10 +5,8 @@ public class RemoveDuplicate {
 
 	public static void main(String[] args) {
 		Scanner sn = new Scanner(System.in);
-		System.out.println("Enter number of elements in array..");
 		int len = sn.nextInt();
 		int[] ar = new int[len];
-		System.out.println("Enter elements of the array..");
 		for(int i=0;i<len;i++) 
 			ar[i]=sn.nextInt();
 		for(int i=0;i<len;i++) {
